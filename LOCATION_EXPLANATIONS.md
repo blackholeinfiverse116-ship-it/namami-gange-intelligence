@@ -1,6 +1,6 @@
 # LOCATION EXPLANATIONS
 
-This document provides explainable reasoning for all suitability scores generated for the Namami Gange Demonstration Intelligence Layer.
+This document provides explainable reasoning for all suitability scores generated for the Namami Gange Demonstration Intelligence Layer. 
 
 No score is generated as a black-box value. Every location includes positive factors, negative factors, operational reasoning, and confidence assessment.
 
