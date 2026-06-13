@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the demonstration-ready Geospatial Intelligence Layer developed for the Namami Gange Dashboard.
+This repository contains the demonstration-ready Geospatial Intelligence Layer developed for the Namami Gange Dashboard. 
 
 The objective of this work is to replace simulated intelligence with explainable, dataset-driven operational intelligence for inland waterways and river-based infrastructure planning.
 
