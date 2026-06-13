@@ -1,6 +1,6 @@
 # DATASET INVENTORY
 
-## Overview
+## Overview 
 
 This inventory documents the datasets currently available for the Namami Gange Geospatial Intelligence Demonstration. These datasets are used to generate location-level intelligence, opportunity assessments, constraint assessments, suitability scoring, and explainable dashboard outputs.
 
