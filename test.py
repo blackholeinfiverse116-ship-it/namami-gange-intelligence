@@ -7,4 +7,4 @@ for city in data:
     print(city["location"])
     print(city["score"])
     print(city["level"])
-    print("------")
+    print("------") 
