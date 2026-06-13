@@ -1,0 +1,138 @@
+[
+  {
+    "location": "Varanasi",
+    "coordinates": [25.3176, 82.9739],
+    "suitability_score": 92,
+    "suitability_level": "High",
+    "key_opportunities": [
+      "Cargo Operations",
+      "Tourism Development",
+      "Multimodal Logistics",
+      "Passenger Ferry Services",
+      "Intermodal Connectivity"
+    ],
+    "key_constraints": [
+      "Seasonal Water Level Variation"
+    ],
+    "infrastructure_present": [
+      "Ramnagar Multimodal Terminal",
+      "Airport",
+      "Railway Junction",
+      "National Highway Connectivity",
+      "Proposed MMLP"
+    ],
+    "operational_notes": "Major NW-1 logistics and tourism hub with operational multimodal terminal and strong multimodal connectivity.",
+    "confidence_score": 0.92,
+    "explanation_summary": "High suitability driven by operational terminal infrastructure, strong navigability, airport and rail connectivity, logistics ecosystem, and significant tourism demand."
+  },
+  {
+    "location": "Patna",
+    "coordinates": [25.5941, 85.1376],
+    "suitability_score": 89,
+    "suitability_level": "High",
+    "key_opportunities": [
+      "Regional Cargo Movement",
+      "Logistics Expansion",
+      "Passenger Ferry Services",
+      "Intermodal Connectivity",
+      "River Trade"
+    ],
+    "key_constraints": [
+      "Moderate Seasonal Variability"
+    ],
+    "infrastructure_present": [
+      "Gaighat Terminal",
+      "Airport",
+      "Railway Junction",
+      "National Highway Connectivity",
+      "ICD Fatuha",
+      "Proposed MMLP"
+    ],
+    "operational_notes": "Strong regional logistics node with operational river terminal and extensive hinterland connectivity.",
+    "confidence_score": 0.90,
+    "explanation_summary": "High suitability supported by operational terminal infrastructure, strong urban demand, logistics facilities, and reliable navigation conditions."
+  },
+  {
+    "location": "Prayagraj",
+    "coordinates": [25.4358, 81.8463],
+    "suitability_score": 78,
+    "suitability_level": "Medium",
+    "key_opportunities": [
+      "Religious Tourism",
+      "Passenger Mobility",
+      "Seasonal Event Logistics",
+      "Intermodal Connectivity"
+    ],
+    "key_constraints": [
+      "Flood Risk",
+      "Moderate Navigability",
+      "Seasonal Operational Variability"
+    ],
+    "infrastructure_present": [
+      "Airport",
+      "Railway Junction",
+      "National Highway Connectivity",
+      "Proposed MMLP"
+    ],
+    "operational_notes": "Important religious and cultural center with growing logistics potential but moderate navigation constraints.",
+    "confidence_score": 0.85,
+    "explanation_summary": "Moderate suitability due to strong connectivity and tourism demand offset by flood risk and lower navigation reliability."
+  },
+  {
+    "location": "Kanpur",
+    "coordinates": [26.4499, 80.3319],
+    "suitability_score": 72,
+    "suitability_level": "Medium",
+    "key_opportunities": [
+      "Industrial Cargo",
+      "Manufacturing Supply Chains",
+      "Logistics Expansion",
+      "Intermodal Freight"
+    ],
+    "key_constraints": [
+      "Water Quality Concerns",
+      "Flood Risk",
+      "Environmental Sensitivity",
+      "Seasonal Variability"
+    ],
+    "infrastructure_present": [
+      "Airport",
+      "Railway Junction",
+      "National Highway Connectivity",
+      "Industrial Freight Network",
+      "ICD",
+      "Proposed MMLP"
+    ],
+    "operational_notes": "Major industrial center with strong freight demand but environmental and river condition challenges.",
+    "confidence_score": 0.84,
+    "explanation_summary": "Moderate suitability driven by industrial demand and connectivity, constrained by water quality and environmental limitations."
+  },
+  {
+    "location": "Kolkata",
+    "coordinates": [22.5726, 88.3639],
+    "suitability_score": 95,
+    "suitability_level": "High",
+    "key_opportunities": [
+      "Port-Linked Cargo",
+      "International Trade",
+      "Container Logistics",
+      "Multimodal Freight",
+      "Passenger Mobility"
+    ],
+    "key_constraints": [
+      "Port Congestion Risk",
+      "Urban Operational Complexity"
+    ],
+    "infrastructure_present": [
+      "GR Jetty",
+      "Airport",
+      "Major Railway Network",
+      "Port Infrastructure",
+      "National Highway Connectivity",
+      "MMLP Dankuni"
+    ],
+    "operational_notes": "Largest logistics and trade gateway in the study area with extensive multimodal infrastructure.",
+    "confidence_score": 0.95,
+    "explanation_summary": "Highest suitability due to port access, extensive logistics infrastructure, strong connectivity, and large economic base."
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "location": "Varanasi",
+    "opportunities": [
+      {
+        "type": "Cargo Opportunity",
+        "priority": "High",
+        "score": 94,
+        "reason": "Operational Ramnagar Multimodal Terminal with NW-1 connectivity."
+      },
+      {
+        "type": "Tourism Opportunity",
+        "priority": "High",
+        "score": 98,
+        "reason": "Major religious and heritage tourism destination with year-round visitor demand."
+      },
+      {
+        "type": "Logistics Expansion Opportunity",
+        "priority": "High",
+        "score": 92,
+        "reason": "Proposed MMLP and strong road, rail, and waterway integration."
+      },
+      {
+        "type": "Passenger Ferry Opportunity",
+        "priority": "High",
+        "score": 90,
+        "reason": "Strong demand for river-based passenger movement and tourism services."
+      },
+      {
+        "type": "Intermodal Connectivity Opportunity",
+        "priority": "High",
+        "score": 91,
+        "reason": "Airport, railway junction, highway network, and NW-1 connectivity available."
+      }
+    ]
+  },
+  {
+    "location": "Patna",
+    "opportunities": [
+      {
+        "type": "Cargo Opportunity",
+        "priority": "High",
+        "score": 91,
+        "reason": "Gaighat Terminal and ICD Fatuha support cargo aggregation and distribution."
+      },
+      {
+        "type": "Logistics Expansion Opportunity",
+        "priority": "High",
+        "score": 89,
+        "reason": "Growing logistics ecosystem supported by proposed MMLP."
+      },
+      {
+        "type": "Passenger Ferry Opportunity",
+        "priority": "High",
+        "score": 88,
+        "reason": "Large urban population and river accessibility support passenger movement."
+      },
+      {
+        "type": "Regional Trade Opportunity",
+        "priority": "High",
+        "score": 90,
+        "reason": "Strong hinterland connectivity and regional market access."
+      },
+      {
+        "type": "Intermodal Connectivity Opportunity",
+        "priority": "High",
+        "score": 90,
+        "reason": "Integrated road, rail, airport, and waterway connectivity."
+      }
+    ]
+  },
+  {
+    "location": "Prayagraj",
+    "opportunities": [
+      {
+        "type": "Tourism Opportunity",
+        "priority": "High",
+        "score": 95,
+        "reason": "Religious tourism and Kumbh-related visitor demand."
+      },
+      {
+        "type": "Passenger Ferry Opportunity",
+        "priority": "Medium",
+        "score": 82,
+        "reason": "Potential for intra-city and pilgrimage mobility services."
+      },
+      {
+        "type": "Event Logistics Opportunity",
+        "priority": "High",
+        "score": 88,
+        "reason": "Large-scale event logistics demand during religious gatherings."
+      },
+      {
+        "type": "Intermodal Connectivity Opportunity",
+        "priority": "Medium",
+        "score": 80,
+        "reason": "Airport, railway, and highway connectivity available."
+      }
+    ]
+  },
+  {
+    "location": "Kanpur",
+    "opportunities": [
+      {
+        "type": "Industrial Cargo Opportunity",
+        "priority": "High",
+        "score": 90,
+        "reason": "Strong manufacturing and industrial freight demand."
+      },
+      {
+        "type": "Supply Chain Opportunity",
+        "priority": "High",
+        "score": 88,
+        "reason": "Large industrial base with multimodal logistics potential."
+      },
+      {
+        "type": "Logistics Expansion Opportunity",
+        "priority": "Medium",
+        "score": 80,
+        "reason": "Proposed MMLP and ICD infrastructure support future growth."
+      },
+      {
+        "type": "Intermodal Freight Opportunity",
+        "priority": "High",
+        "score": 86,
+        "reason": "Road, rail, and industrial freight integration available."
+      }
+    ]
+  },
+  {
+    "location": "Kolkata",
+    "opportunities": [
+      {
+        "type": "International Trade Opportunity",
+        "priority": "High",
+        "score": 99,
+        "reason": "Gateway for international and regional cargo movement."
+      },
+      {
+        "type": "Port-Linked Cargo Opportunity",
+        "priority": "High",
+        "score": 98,
+        "reason": "Direct integration with major port infrastructure."
+      },
+      {
+        "type": "Container Logistics Opportunity",
+        "priority": "High",
+        "score": 97,
+        "reason": "Strong logistics ecosystem and freight movement capacity."
+      },
+      {
+        "type": "Multimodal Freight Opportunity",
+        "priority": "High",
+        "score": 96,
+        "reason": "Port, rail, road, airport, and waterway integration."
+      },
+      {
+        "type": "Passenger Mobility Opportunity",
+        "priority": "Medium",
+        "score": 84,
+        "reason": "Large urban population and regional mobility demand."
+      }
+    ]
+  }
+]

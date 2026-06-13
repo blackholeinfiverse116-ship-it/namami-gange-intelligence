@@ -1,0 +1,99 @@
+[
+  {
+    "location": "Varanasi",
+    "score": 92,
+    "level": "High",
+    "opportunities": [
+      "Cargo Operations",
+      "Tourism Development",
+      "Multimodal Logistics",
+      "Passenger Ferry Services",
+      "Intermodal Connectivity"
+    ],
+    "constraints": [
+      "Seasonal Water Level Variation",
+      "Tourism Season Congestion",
+      "Environmental Compliance"
+    ],
+    "explanation": "Varanasi is a high-suitability inland waterway node supported by the operational Ramnagar Multimodal Terminal, strong rail-air-road connectivity, favorable navigation conditions, and significant tourism demand. Seasonal river variability remains the primary operational constraint.",
+    "confidence": 0.92
+  },
+  {
+    "location": "Patna",
+    "score": 89,
+    "level": "High",
+    "opportunities": [
+      "Regional Cargo Movement",
+      "Logistics Expansion",
+      "Passenger Ferry Services",
+      "Regional Trade",
+      "Intermodal Connectivity"
+    ],
+    "constraints": [
+      "Seasonal Hydrological Variability",
+      "Riverbank Infrastructure Gaps",
+      "Operational Capacity Scaling"
+    ],
+    "explanation": "Patna demonstrates strong logistics and cargo potential due to the operational Gaighat Terminal, ICD Fatuha, extensive connectivity, and a large population base. Seasonal river variability and future infrastructure scaling requirements are the main constraints.",
+    "confidence": 0.90
+  },
+  {
+    "location": "Prayagraj",
+    "score": 78,
+    "level": "Medium",
+    "opportunities": [
+      "Tourism Opportunity",
+      "Passenger Ferry Services",
+      "Event Logistics",
+      "Intermodal Connectivity"
+    ],
+    "constraints": [
+      "Flood Risk",
+      "Seasonal River Variability",
+      "Limited Waterway Infrastructure",
+      "Navigation Reliability"
+    ],
+    "explanation": "Prayagraj benefits from strong tourism demand, religious significance, and multimodal connectivity. However, flood exposure, seasonal variability, and lower infrastructure readiness reduce overall suitability.",
+    "confidence": 0.85
+  },
+  {
+    "location": "Kanpur",
+    "score": 72,
+    "level": "Medium",
+    "opportunities": [
+      "Industrial Cargo",
+      "Supply Chain Logistics",
+      "Logistics Expansion",
+      "Intermodal Freight"
+    ],
+    "constraints": [
+      "Water Quality Concerns",
+      "Environmental Restrictions",
+      "Flood Risk",
+      "Seasonal Operational Variability",
+      "Draft Limitations"
+    ],
+    "explanation": "Kanpur has substantial industrial demand and freight-generation potential supported by strong road and rail connectivity. Environmental sensitivity, water quality concerns, and river-condition limitations reduce overall operational suitability.",
+    "confidence": 0.84
+  },
+  {
+    "location": "Kolkata",
+    "score": 95,
+    "level": "High",
+    "opportunities": [
+      "International Trade",
+      "Port-Linked Cargo",
+      "Container Logistics",
+      "Multimodal Freight",
+      "Passenger Mobility"
+    ],
+    "constraints": [
+      "Port Congestion",
+      "Urban Operational Complexity",
+      "Infrastructure Utilization Pressure",
+      "Traffic Interface Constraints"
+    ],
+    "explanation": "Kolkata is the strongest location in the assessment due to port access, extensive logistics infrastructure, multimodal connectivity, and a large economic base. Operational challenges are primarily related to congestion and urban-scale complexity rather than infrastructure availability.",
+    "confidence": 0.95
+  }
+]

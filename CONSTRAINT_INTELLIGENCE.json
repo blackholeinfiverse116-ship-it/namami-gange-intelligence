@@ -1,0 +1,156 @@
+[
+  {
+    "location": "Varanasi",
+    "constraints": [
+      {
+        "type": "Seasonal Water Level Variation",
+        "severity": "Medium",
+        "score": 35,
+        "reason": "River levels fluctuate across seasons, affecting vessel scheduling and operational planning."
+      },
+      {
+        "type": "Tourism Season Congestion",
+        "severity": "Medium",
+        "score": 30,
+        "reason": "Peak pilgrimage and tourism periods can increase pressure on riverfront infrastructure."
+      },
+      {
+        "type": "Environmental Compliance",
+        "severity": "Low",
+        "score": 20,
+        "reason": "Operations must maintain compliance with environmental protection requirements."
+      }
+    ],
+    "overall_constraint_level": "Low",
+    "constraint_score": 28,
+    "summary": "Varanasi has relatively few operational constraints. Seasonal river variability remains the primary concern."
+  },
+  {
+    "location": "Patna",
+    "constraints": [
+      {
+        "type": "Seasonal Hydrological Variability",
+        "severity": "Medium",
+        "score": 40,
+        "reason": "River conditions vary seasonally and may affect navigation efficiency."
+      },
+      {
+        "type": "Riverbank Infrastructure Gaps",
+        "severity": "Medium",
+        "score": 35,
+        "reason": "Additional supporting infrastructure may be required for large-scale expansion."
+      },
+      {
+        "type": "Operational Capacity Scaling",
+        "severity": "Low",
+        "score": 25,
+        "reason": "Future growth may require capacity upgrades across logistics systems."
+      }
+    ],
+    "overall_constraint_level": "Low",
+    "constraint_score": 33,
+    "summary": "Patna faces moderate seasonal and infrastructure-related challenges but remains operationally favorable."
+  },
+  {
+    "location": "Prayagraj",
+    "constraints": [
+      {
+        "type": "Flood Risk",
+        "severity": "High",
+        "score": 75,
+        "reason": "Flood-prone conditions can affect navigation reliability and infrastructure utilization."
+      },
+      {
+        "type": "Seasonal River Variability",
+        "severity": "High",
+        "score": 70,
+        "reason": "Water level fluctuations can impact navigation depth and operational planning."
+      },
+      {
+        "type": "Limited Waterway Infrastructure",
+        "severity": "Medium",
+        "score": 55,
+        "reason": "Compared to major NW-1 logistics hubs, available operational infrastructure is limited."
+      },
+      {
+        "type": "Navigation Reliability",
+        "severity": "Medium",
+        "score": 50,
+        "reason": "Lower navigability conditions reduce year-round operational certainty."
+      }
+    ],
+    "overall_constraint_level": "Medium",
+    "constraint_score": 63,
+    "summary": "Flood exposure and seasonal navigation variability are the primary constraints affecting Prayagraj."
+  },
+  {
+    "location": "Kanpur",
+    "constraints": [
+      {
+        "type": "Water Quality Concerns",
+        "severity": "High",
+        "score": 85,
+        "reason": "Water quality indicators show elevated environmental sensitivity compared to other locations."
+      },
+      {
+        "type": "Environmental Restrictions",
+        "severity": "High",
+        "score": 80,
+        "reason": "Environmental management requirements may affect operational expansion."
+      },
+      {
+        "type": "Flood Risk",
+        "severity": "Medium",
+        "score": 60,
+        "reason": "Seasonal flooding may impact navigation and logistics operations."
+      },
+      {
+        "type": "Seasonal Operational Variability",
+        "severity": "Medium",
+        "score": 55,
+        "reason": "River conditions may fluctuate significantly throughout the year."
+      },
+      {
+        "type": "Draft Limitations",
+        "severity": "Medium",
+        "score": 50,
+        "reason": "Navigation conditions may not consistently support larger cargo operations."
+      }
+    ],
+    "overall_constraint_level": "High",
+    "constraint_score": 74,
+    "summary": "Environmental sensitivity and water quality challenges are the dominant constraints in Kanpur."
+  },
+  {
+    "location": "Kolkata",
+    "constraints": [
+      {
+        "type": "Port Congestion",
+        "severity": "Medium",
+        "score": 55,
+        "reason": "High cargo volumes may create congestion during peak operational periods."
+      },
+      {
+        "type": "Urban Operational Complexity",
+        "severity": "Medium",
+        "score": 50,
+        "reason": "Dense urban infrastructure increases operational coordination requirements."
+      },
+      {
+        "type": "Infrastructure Utilization Pressure",
+        "severity": "Medium",
+        "score": 45,
+        "reason": "Existing infrastructure experiences significant demand from trade and logistics activities."
+      },
+      {
+        "type": "Traffic Interface Constraints",
+        "severity": "Low",
+        "score": 35,
+        "reason": "Road and logistics traffic can occasionally impact movement efficiency."
+      }
+    ],
+    "overall_constraint_level": "Low",
+    "constraint_score": 46,
+    "summary": "Kolkata's constraints are primarily related to scale, congestion management, and urban operational complexity rather than infrastructure availability."
+  }
+]
