@@ -8,7 +8,7 @@ Version: Demo Ready
 
 Status: Ready for Dashboard Integration
 
-Prepared For:
+Prepared For: 
 
 * Dashboard Team
 * Federation Runtime Team
