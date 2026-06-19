@@ -6,7 +6,7 @@ Namami Gange Demonstration Intelligence Layer
 
 Version: Demo Ready
 
-Status: Ready for Dashboard Integration
+Status: Ready for Dashboard Integration & Commodore Showcase
 
 Prepared For:
 
@@ -14,174 +14,184 @@ Prepared For:
 * Federation Runtime Team
 * Validation Team
 * Demo Review Team
+* Commodore Showcase Review
 
 ---
 
 # 1. Entry Point
 
-User Interaction Flow:
+## User Journey
 
 Map Click
 → Location Selected
 → Intelligence Engine
-→ Score Generation
+→ Dataset Lineage Retrieval
+→ Score Breakdown Generation
 → Opportunity Assessment
 → Constraint Assessment
-→ Explanation Generation
-→ Dashboard Card Rendering
+→ Confidence Explanation
+→ Dashboard Rendering
 
 Example:
 
-User clicks Varanasi
+User clicks **Varanasi**
 
-System returns:
+Dashboard displays:
 
 * Suitability Score
 * Suitability Level
-* Opportunities
-* Constraints
-* Infrastructure
+* Opportunity Intelligence
+* Constraint Intelligence
+* Infrastructure Summary
+* Dataset Lineage
+* Score Breakdown
+* Confidence Explanation
 * Operational Notes
-* Confidence Score
-* Explanation Summary
 
 ---
 
-# 2. Dataset Sources
+# 2. Critical Files
 
-The intelligence layer is generated using the following datasets.
+The following files power the demonstration.
 
-## Dataset 1
+| File                           | Purpose                 |
+| ------------------------------ | ----------------------- |
+| DATASET_INVENTORY.md           | Dataset catalog         |
+| LOCATION_INTELLIGENCE.json     | Location intelligence   |
+| LOCATION_EXPLANATIONS.md       | Score reasoning         |
+| OPPORTUNITY_INTELLIGENCE.json  | Opportunity surfaces    |
+| CONSTRAINT_INTELLIGENCE.json   | Constraint surfaces     |
+| DEMO_INTELLIGENCE_PAYLOAD.json | Dashboard payload       |
+| DATASET_LINEAGE.json           | Dataset traceability    |
+| SCORE_EXPLANATION.json         | Score breakdown         |
+| CONFIDENCE_EXPLANATION.json    | Confidence rationale    |
+| DATASET_SUMMARY_PAYLOAD.json   | Dataset showcase panel  |
+| COMMODORE_QA.md                | Demo question responses |
 
-Name:
+---
 
-urban_centers_ganga_basin
+# 3. Dataset Sources
+
+## urban_centers_ganga_basin
 
 Purpose:
 
 Urban demand, connectivity and economic assessment.
 
-Key Fields:
-
-* city_name
-* population_est_2023_lakhs
-* has_airport
-* has_railway_jn
-* has_highway_access
-* economic_importance
-
 Contribution:
 
 * Demand Scoring
 * Connectivity Scoring
-* Opportunity Detection
+* Economic Importance Assessment
 
 ---
 
-## Dataset 2
-
-Name:
-
-logistics_parks_ganga_belt
+## logistics_parks_ganga_belt
 
 Purpose:
 
 Logistics infrastructure assessment.
 
-Key Fields:
-
-* park_name
-* park_type
-* status
-* road_connectivity
-* rail_connectivity
-* waterway_connectivity
-
 Contribution:
 
 * Logistics Opportunity Detection
+* Cargo Assessment
 * Intermodal Opportunity Detection
 
 ---
 
-## Dataset 3
+## iwai_terminals_nw1
 
-Name:
+Source:
 
-iwai_terminals_nw1
-
-Purpose:
-
-Inland waterway infrastructure assessment.
-
-Key Fields:
-
-* terminal_name
-* terminal_type
-* capacity_mtpa
-* operational_status
-
-Contribution:
-
-* Infrastructure Scoring
-* Cargo Opportunity Detection
-* Waterway Readiness Assessment
-
----
-
-## Dataset 4
-
-Name:
-
-cpcb_water_quality_ganga
+IWAI
 
 Purpose:
 
-Environmental and water quality assessment.
-
-Key Fields:
-
-* do_mg_l
-* bod_mg_l
-* ph
-* pollution_class
+Waterway infrastructure assessment.
 
 Contribution:
 
-* Ecological Assessment
-* Environmental Constraints
-* Water Quality Scoring
+* Infrastructure Readiness
+* Cargo Operations
+* Navigation Support
 
 ---
 
-## Dataset 5
+## cpcb_water_quality_ganga
 
-Name:
+Source:
 
-cwc_river_stations_ganga
+CPCB
+
+Purpose:
+
+Water quality assessment.
+
+Contribution:
+
+* Environmental Assessment
+* Water Quality Constraints
+* Ecological Intelligence
+
+---
+
+## cwc_river_stations_ganga
+
+Source:
+
+CWC
 
 Purpose:
 
 Hydrological and navigation assessment.
 
-Key Fields:
-
-* navigability_depth_m
-* flood_prone
-* flow_stability_index
-* water_level_variation_m
-
 Contribution:
 
-* Navigation Suitability
+* Navigation Assessment
 * Flood Risk Assessment
-* Seasonal Variability Assessment
+* River Condition Monitoring
 
 ---
 
-# 3. Intelligence Flow
+# 4. Dataset Lineage
 
-The intelligence engine follows a deterministic explainable pipeline.
+Every score can be traced to specific records.
+
+Example:
+
+### Varanasi
+
+Datasets Used:
+
+* UC007 (Varanasi)
+* T001 (Multimodal Terminal Varanasi - Ramnagar)
+* LP001 (MMLP Varanasi)
+* WQ009 (Varanasi Rajghat)
+* RS010 (Varanasi Rajghat Bridge)
+
+Contribution Areas:
+
+* Infrastructure
+* Connectivity
+* Demand
+* Water Quality
+* Navigation
+
+The same lineage structure exists for:
+
+* Patna
+* Prayagraj
+* Kanpur
+* Kolkata
+
+All lineage information is stored in:
+
+DATASET_LINEAGE.json
+
+---
+
+# 5. Intelligence Flow
 
 Dataset
 ↓
@@ -197,17 +207,154 @@ Constraint Detection
 ↓
 Explanation Generation
 ↓
-Dashboard Payload Generation
+Dashboard Payload
 
-No black-box scoring models are used.
+No black-box models are used.
 
-All outputs are traceable to source datasets.
+All outputs are explainable and traceable.
 
 ---
 
-# 4. Locations Covered
+# 6. Score Breakdown
 
-The demonstration package includes intelligence for the following locations:
+Final suitability scores are generated using four explainable components.
+
+| Component                  | Weight |
+| -------------------------- | ------ |
+| Infrastructure Readiness   | 30     |
+| Connectivity               | 25     |
+| Navigation Suitability     | 25     |
+| Demand & Economic Activity | 20     |
+
+Example:
+
+### Varanasi
+
+Infrastructure = 28/30
+
+Connectivity = 24/25
+
+Navigation = 22/25
+
+Demand = 18/20
+
+Final Score = 92/100
+
+Full score explanations are available in:
+
+SCORE_EXPLANATION.json
+
+---
+
+# 7. Confidence Methodology
+
+Confidence is not arbitrary.
+
+Confidence is determined using:
+
+* Dataset Coverage
+* Data Completeness
+* Dataset Agreement
+* Evidence Strength
+* Infrastructure Evidence
+* Navigation Evidence
+
+Example:
+
+### Varanasi
+
+Confidence = 0.92
+
+Reason:
+
+* All major datasets contain supporting records.
+* Strong agreement between infrastructure, logistics and navigation evidence.
+* High data completeness.
+
+Full confidence rationale is available in:
+
+CONFIDENCE_EXPLANATION.json
+
+---
+
+# 8. Opportunity Logic
+
+Opportunities are generated from infrastructure, logistics and demand indicators.
+
+Types:
+
+* Cargo Opportunity
+* Logistics Expansion Opportunity
+* Tourism Opportunity
+* Passenger Ferry Opportunity
+* Intermodal Connectivity Opportunity
+* International Trade Opportunity
+
+Examples:
+
+* Varanasi
+* Patna
+* Kolkata
+
+Output File:
+
+OPPORTUNITY_INTELLIGENCE.json
+
+---
+
+# 9. Constraint Logic
+
+Constraints are generated from environmental and operational indicators.
+
+Types:
+
+* Water Quality Constraints
+* Flood Risk Constraints
+* Seasonal Variability Constraints
+* Navigation Constraints
+* Congestion Constraints
+
+Examples:
+
+* Kanpur
+* Prayagraj
+* Kolkata
+
+Output File:
+
+CONSTRAINT_INTELLIGENCE.json
+
+---
+
+# 10. Dashboard Consumption Path
+
+Dashboard Flow:
+
+Map Click
+→ DEMO_INTELLIGENCE_PAYLOAD.json
+→ DATASET_LINEAGE.json
+→ SCORE_EXPLANATION.json
+→ CONFIDENCE_EXPLANATION.json
+→ Opportunity Intelligence
+→ Constraint Intelligence
+→ Dashboard Cards
+
+This allows users to inspect:
+
+* Score
+* Why Score Exists
+* Datasets Used
+* Confidence Rationale
+* Opportunities
+* Constraints
+
+without requiring verbal explanation.
+
+---
+
+# 11. Locations Covered
+
+Locations included in the showcase:
 
 1. Varanasi
 2. Patna
@@ -215,315 +362,93 @@ The demonstration package includes intelligence for the following locations:
 4. Kanpur
 5. Kolkata
 
-These locations were selected due to:
+These locations were selected because of:
 
-* Strategic position along the Ganga corridor
-* Waterway significance
-* Infrastructure availability
-* Logistics relevance
-* Tourism relevance
-
----
-
-# 5. Opportunity Logic
-
-Opportunity surfaces are generated using infrastructure, connectivity and demand indicators.
-
-## Cargo Opportunity
-
-Triggered By:
-
-* IWAI terminal presence
-* Navigable waterway access
-* Freight infrastructure availability
-
-Examples:
-
-* Varanasi
-* Patna
-* Kolkata
+* Strategic Ganga Corridor Importance
+* Waterway Relevance
+* Logistics Relevance
+* Tourism Significance
+* Infrastructure Availability
 
 ---
 
-## Logistics Expansion Opportunity
-
-Triggered By:
-
-* Logistics parks
-* Proposed MMLPs
-* Rail-road-waterway integration
-
-Examples:
-
-* Varanasi
-* Patna
-* Kanpur
-
----
-
-## Tourism Opportunity
-
-Triggered By:
-
-* Religious tourism demand
-* Heritage significance
-* Passenger movement demand
-
-Examples:
-
-* Varanasi
-* Prayagraj
-
----
-
-## Passenger Ferry Opportunity
-
-Triggered By:
-
-* Urban population
-* River accessibility
-* Mobility demand
-
-Examples:
-
-* Varanasi
-* Patna
-* Prayagraj
-
----
-
-## Intermodal Connectivity Opportunity
-
-Triggered By:
-
-* Airport access
-* Railway access
-* Highway access
-* Waterway access
-
-Examples:
-
-* Varanasi
-* Patna
-* Kolkata
-
----
-
-## International Trade Opportunity
-
-Triggered By:
-
-* Port connectivity
-* Trade infrastructure
-* Cargo handling ecosystem
-
-Examples:
-
-* Kolkata
-
----
-
-# 6. Constraint Logic
-
-Constraint surfaces are generated using environmental, hydrological and operational indicators.
-
-## Water Quality Constraints
-
-Inputs:
-
-* BOD
-* DO
-* Pollution Class
-
-Examples:
-
-* Kanpur
-
----
-
-## Flood Risk Constraints
-
-Inputs:
-
-* Flood-prone indicator
-* Historical river behavior
-
-Examples:
-
-* Prayagraj
-* Kanpur
-
----
-
-## Seasonal Variability Constraints
-
-Inputs:
-
-* Water level variation
-* Flow stability
-
-Examples:
-
-* Varanasi
-* Patna
-* Prayagraj
-
----
-
-## Navigation Constraints
-
-Inputs:
-
-* Navigability depth
-* Flow conditions
-
-Examples:
-
-* Prayagraj
-
----
-
-## Congestion Constraints
-
-Inputs:
-
-* Infrastructure utilization
-* Trade intensity
-
-Examples:
-
-* Kolkata
-
----
-
-# 7. Scoring Methodology
-
-Suitability scores are generated using weighted explainable factors.
-
-| Component                  | Weight |
-| -------------------------- | ------ |
-| Infrastructure Readiness   | 30%    |
-| Connectivity               | 25%    |
-| Navigation Suitability     | 25%    |
-| Demand & Economic Activity | 20%    |
-
-Total Score:
-
-100
-
-Suitability Levels:
-
-High = 85–100
-
-Medium = 70–84
-
-Low = Below 70
-
----
-
-# 8. Intelligence Outputs Produced
-
-The intelligence layer generates:
-
-## Location Intelligence
-
-Output:
-
-LOCATION_INTELLIGENCE.json
-
-Provides:
-
-* Score
-* Level
-* Opportunities
-* Constraints
-* Infrastructure
-* Notes
-* Confidence
-
----
-
-## Opportunity Intelligence
-
-Output:
-
-OPPORTUNITY_INTELLIGENCE.json
-
-Provides:
-
-* Opportunity Type
-* Priority
-* Opportunity Score
-* Reasoning
-
----
-
-## Constraint Intelligence
-
-Output:
-
-CONSTRAINT_INTELLIGENCE.json
-
-Provides:
-
-* Constraint Type
-* Severity
-* Constraint Score
-* Reasoning
-
----
-
-## Dashboard Payload
-
-Output:
-
-DEMO_INTELLIGENCE_PAYLOAD.json
-
-Provides dashboard-ready intelligence.
-
----
-
-# 9. Known Limitations
+# 12. Known Limitations
 
 Current limitations include:
 
-1. Demonstration dataset only.
-
-2. No real-time telemetry integration.
-
-3. No live vessel tracking.
-
-4. No live AIS feeds.
-
-5. No live weather integration.
-
-6. No predictive analytics layer.
-
-7. Limited to selected demonstration locations.
+1. Static demonstration datasets.
+2. No live vessel tracking.
+3. No AIS integration.
+4. No live weather feeds.
+5. No real-time water quality sensors.
+6. No predictive forecasting.
+7. Limited demonstration coverage.
 
 These limitations do not affect demonstration objectives.
 
 ---
 
-# 10. Validation Readiness
+# 13. Failure Scenarios
 
-Output structures have been designed to support:
+Potential issues:
 
-* Dashboard Integration
-* Federation Runtime Integration
-* Validation Layer Integration
+### Missing Dataset
 
-All payloads use stable JSON structures.
+Impact:
 
-Schema changes are not expected during demonstration.
+Reduced confidence and incomplete reasoning.
 
 ---
 
-# 11. Demo Readiness
+### Incorrect Dataset Values
+
+Impact:
+
+Incorrect scoring and recommendations.
+
+---
+
+### Outdated Dataset
+
+Impact:
+
+Operational conditions may not reflect reality.
+
+---
+
+### Partial Coverage
+
+Impact:
+
+Reduced confidence and explainability.
+
+---
+
+Because all outputs are traceable, these issues can be identified and corrected.
+
+---
+
+# 14. Showcase Notes
+
+The Commodore should be able to click any location and immediately understand:
+
+* What datasets were used
+* Why the score exists
+* What increased the score
+* What reduced the score
+* Why confidence is high or low
+* Which opportunities exist
+* Which constraints exist
+
+without requiring a verbal explanation from the team.
+
+---
+
+# 15. Demo Readiness
 
 Status:
 
-READY
+## READY
 
 Completed Deliverables:
 
@@ -533,15 +458,18 @@ Completed Deliverables:
 * OPPORTUNITY_INTELLIGENCE.json
 * CONSTRAINT_INTELLIGENCE.json
 * DEMO_INTELLIGENCE_PAYLOAD.json
+* DATASET_LINEAGE.json
+* SCORE_EXPLANATION.json
+* CONFIDENCE_EXPLANATION.json
+* DATASET_SUMMARY_PAYLOAD.json
+* COMMODORE_QA.md
 * REVIEW_PACKET.md
 
-All mandatory deliverables requested in the sprint task have been generated.
+All mandatory deliverables requested in both sprint tasks have been completed.
 
 ---
 
-# 12. Proof
-
-Proof of Intelligence Generation:
+# 16. Proof
 
 Datasets Used:
 
@@ -562,11 +490,13 @@ Locations Evaluated:
 Outputs Generated:
 
 * Suitability Scores
-* Opportunity Surfaces
-* Constraint Surfaces
-* Explanation Layer
+* Dataset Lineage
+* Score Breakdown
+* Confidence Explanation
+* Opportunity Intelligence
+* Constraint Intelligence
 * Dashboard Payload
 
 Result:
 
-The dashboard can now display explainable geospatial intelligence rather than static or simulated values.
+The dashboard can now provide explainable, traceable and auditable geospatial intelligence for the Namami Gange showcase.

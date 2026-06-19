@@ -3,7 +3,7 @@
     "location": "Varanasi",
     "constraints": [
       {
-        "type": "Seasonal Water Level Variation",
+        "type": "Seasonal Water Level Variation", 
         "severity": "Medium",
         "score": 35,
         "reason": "River levels fluctuate across seasons, affecting vessel scheduling and operational planning."
