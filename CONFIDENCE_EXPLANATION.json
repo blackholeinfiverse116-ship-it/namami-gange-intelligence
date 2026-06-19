@@ -1,0 +1,100 @@
+[
+  {
+    "location": "Varanasi",
+    "confidence_score": 0.92,
+    "confidence_level": "High",
+    "factors": {
+      "dataset_coverage": "Very High",
+      "dataset_freshness": "Demo Dataset",
+      "data_completeness": "High",
+      "data_agreement": "High",
+      "evidence_strength": "High"
+    },
+    "datasets_supporting_decision": [
+      "urban_centers_ganga_basin",
+      "iwai_terminals_nw1",
+      "logistics_parks_ganga_belt",
+      "cpcb_water_quality_ganga",
+      "cwc_river_stations_ganga"
+    ],
+    "rationale": "All five datasets contain records for Varanasi. Infrastructure, logistics, navigation, water quality and demand indicators consistently support a high suitability score. Strong agreement across datasets results in high confidence."
+  },
+  {
+    "location": "Patna",
+    "confidence_score": 0.90,
+    "confidence_level": "High",
+    "factors": {
+      "dataset_coverage": "Very High",
+      "dataset_freshness": "Demo Dataset",
+      "data_completeness": "High",
+      "data_agreement": "High",
+      "evidence_strength": "High"
+    },
+    "datasets_supporting_decision": [
+      "urban_centers_ganga_basin",
+      "iwai_terminals_nw1",
+      "logistics_parks_ganga_belt",
+      "cpcb_water_quality_ganga",
+      "cwc_river_stations_ganga"
+    ],
+    "rationale": "Patna is represented across all major datasets including terminal infrastructure, logistics facilities, water quality monitoring and river stations. Evidence is consistent and supports a high suitability assessment."
+  },
+  {
+    "location": "Prayagraj",
+    "confidence_score": 0.85,
+    "confidence_level": "Medium-High",
+    "factors": {
+      "dataset_coverage": "High",
+      "dataset_freshness": "Demo Dataset",
+      "data_completeness": "High",
+      "data_agreement": "Moderate",
+      "evidence_strength": "Moderate"
+    },
+    "datasets_supporting_decision": [
+      "urban_centers_ganga_basin",
+      "iwai_terminals_nw1",
+      "logistics_parks_ganga_belt",
+      "cpcb_water_quality_ganga",
+      "cwc_river_stations_ganga"
+    ],
+    "rationale": "The location is covered by all datasets, however navigation conditions and flood-related variability create uncertainty in operational suitability. This reduces confidence compared with Varanasi and Patna."
+  },
+  {
+    "location": "Kanpur",
+    "confidence_score": 0.84,
+    "confidence_level": "Medium-High",
+    "factors": {
+      "dataset_coverage": "High",
+      "dataset_freshness": "Demo Dataset",
+      "data_completeness": "High",
+      "data_agreement": "Moderate",
+      "evidence_strength": "Moderate"
+    },
+    "datasets_supporting_decision": [
+      "urban_centers_ganga_basin",
+      "logistics_parks_ganga_belt",
+      "cpcb_water_quality_ganga",
+      "cwc_river_stations_ganga"
+    ],
+    "rationale": "Industrial demand and logistics infrastructure support the location, but environmental concerns and water quality indicators reduce agreement between positive and negative factors. Confidence remains good but not as strong as Varanasi or Patna."
+  },
+  {
+    "location": "Kolkata",
+    "confidence_score": 0.95,
+    "confidence_level": "Very High",
+    "factors": {
+      "dataset_coverage": "Very High",
+      "dataset_freshness": "Demo Dataset",
+      "data_completeness": "Very High",
+      "data_agreement": "Very High",
+      "evidence_strength": "Very High"
+    },
+    "datasets_supporting_decision": [
+      "urban_centers_ganga_basin",
+      "iwai_terminals_nw1",
+      "logistics_parks_ganga_belt",
+      "cwc_river_stations_ganga"
+    ],
+    "rationale": "Kolkata has the strongest infrastructure, logistics ecosystem, connectivity and economic activity in the dataset inventory. Multiple datasets independently support the suitability assessment, resulting in the highest confidence score."
+  }
+]

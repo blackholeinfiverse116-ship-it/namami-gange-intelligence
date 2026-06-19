@@ -1,0 +1,124 @@
+{
+  "total_datasets": 5,
+  "summary": "The intelligence layer uses five datasets covering urban demand, logistics infrastructure, inland waterway infrastructure, water quality and river navigation conditions across the Ganga Basin.",
+  "datasets": [
+    {
+      "dataset_name": "urban_centers_ganga_basin",
+      "source_organization": "Namami Gange Intelligence Dataset",
+      "coverage": "Major urban centers across the Ganga Basin",
+      "update_frequency": "Static Demo Dataset",
+      "contribution_area": [
+        "Demand Assessment",
+        "Population Analysis",
+        "Connectivity Assessment",
+        "Economic Importance"
+      ],
+      "key_fields": [
+        "city_id",
+        "city_name",
+        "population",
+        "airport_access",
+        "rail_connectivity",
+        "economic_importance"
+      ]
+    },
+    {
+      "dataset_name": "logistics_parks_ganga_belt",
+      "source_organization": "Namami Gange Logistics Dataset",
+      "coverage": "Logistics parks, ICDs and multimodal logistics facilities along the Ganga corridor",
+      "update_frequency": "Static Demo Dataset",
+      "contribution_area": [
+        "Logistics Opportunity",
+        "Cargo Operations",
+        "Intermodal Connectivity",
+        "Freight Infrastructure"
+      ],
+      "key_fields": [
+        "park_id",
+        "park_name",
+        "location",
+        "facility_type",
+        "status"
+      ]
+    },
+    {
+      "dataset_name": "iwai_terminals_nw1",
+      "source_organization": "Inland Waterways Authority of India (IWAI)",
+      "coverage": "National Waterway-1 terminals and inland waterway infrastructure",
+      "update_frequency": "Static Demo Dataset",
+      "contribution_area": [
+        "Infrastructure Readiness",
+        "Navigation Support",
+        "Cargo Handling Capability",
+        "Terminal Infrastructure"
+      ],
+      "key_fields": [
+        "terminal_id",
+        "terminal_name",
+        "location",
+        "terminal_type",
+        "operational_status"
+      ]
+    },
+    {
+      "dataset_name": "cpcb_water_quality_ganga",
+      "source_organization": "Central Pollution Control Board (CPCB)",
+      "coverage": "Water quality monitoring stations along the Ganga",
+      "update_frequency": "Static Demo Dataset",
+      "contribution_area": [
+        "Environmental Assessment",
+        "Water Quality Analysis",
+        "Ecological Constraints",
+        "Suitability Validation"
+      ],
+      "key_fields": [
+        "station_id",
+        "station_name",
+        "water_quality_indicator",
+        "location"
+      ]
+    },
+    {
+      "dataset_name": "cwc_river_stations_ganga",
+      "source_organization": "Central Water Commission (CWC)",
+      "coverage": "River monitoring stations across the Ganga Basin",
+      "update_frequency": "Static Demo Dataset",
+      "contribution_area": [
+        "Navigation Assessment",
+        "River Conditions",
+        "Flow Monitoring",
+        "Hydrological Intelligence"
+      ],
+      "key_fields": [
+        "station_id",
+        "station_name",
+        "river_location",
+        "flow_conditions"
+      ]
+    }
+  ],
+  "dataset_usage_matrix": {
+    "urban_centers_ganga_basin": [
+      "Demand Score",
+      "Connectivity Score"
+    ],
+    "logistics_parks_ganga_belt": [
+      "Opportunity Intelligence",
+      "Cargo Assessment",
+      "Intermodal Assessment"
+    ],
+    "iwai_terminals_nw1": [
+      "Infrastructure Score",
+      "Navigation Readiness"
+    ],
+    "cpcb_water_quality_ganga": [
+      "Environmental Assessment",
+      "Constraint Intelligence"
+    ],
+    "cwc_river_stations_ganga": [
+      "Navigation Score",
+      "River Condition Assessment"
+    ]
+  },
+  "showcase_message": "Every suitability score, opportunity, constraint and confidence value shown in the dashboard can be traced back to one or more of these datasets."
+}

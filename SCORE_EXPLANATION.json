@@ -1,0 +1,127 @@
+[
+  {
+    "location": "Varanasi",
+    "infrastructure_score": {
+      "value": 28,
+      "max": 30,
+      "reason": "Operational Ramnagar Multimodal Terminal and proposed MMLP support strong infrastructure readiness."
+    },
+    "connectivity_score": {
+      "value": 24,
+      "max": 25,
+      "reason": "Airport, railway junction and highway access are available."
+    },
+    "navigation_score": {
+      "value": 22,
+      "max": 25,
+      "reason": "High navigability depth, stable flow conditions and operational NW-1 connectivity."
+    },
+    "demand_score": {
+      "value": 18,
+      "max": 20,
+      "reason": "Large population, strong tourism demand and economic importance."
+    },
+    "final_score": 92,
+    "calculation": "28 + 24 + 22 + 18 = 92"
+  },
+  {
+    "location": "Patna",
+    "infrastructure_score": {
+      "value": 27,
+      "max": 30,
+      "reason": "Operational Gaighat Terminal, ICD Fatuha and proposed MMLP contribute to infrastructure readiness."
+    },
+    "connectivity_score": {
+      "value": 23,
+      "max": 25,
+      "reason": "Airport, railway and highway connectivity available."
+    },
+    "navigation_score": {
+      "value": 21,
+      "max": 25,
+      "reason": "Favorable navigation conditions and operational inland waterway facilities."
+    },
+    "demand_score": {
+      "value": 18,
+      "max": 20,
+      "reason": "Large urban population and regional economic importance."
+    },
+    "final_score": 89,
+    "calculation": "27 + 23 + 21 + 18 = 89"
+  },
+  {
+    "location": "Prayagraj",
+    "infrastructure_score": {
+      "value": 22,
+      "max": 30,
+      "reason": "Floating terminal and proposed logistics infrastructure provide moderate readiness."
+    },
+    "connectivity_score": {
+      "value": 22,
+      "max": 25,
+      "reason": "Airport, rail and highway access are available."
+    },
+    "navigation_score": {
+      "value": 16,
+      "max": 25,
+      "reason": "Flood risk and seasonal variability reduce navigation reliability."
+    },
+    "demand_score": {
+      "value": 18,
+      "max": 20,
+      "reason": "Religious tourism and Kumbh-related economic activity generate strong demand."
+    },
+    "final_score": 78,
+    "calculation": "22 + 22 + 16 + 18 = 78"
+  },
+  {
+    "location": "Kanpur",
+    "infrastructure_score": {
+      "value": 21,
+      "max": 30,
+      "reason": "ICD and proposed MMLP support freight movement but waterway infrastructure is limited."
+    },
+    "connectivity_score": {
+      "value": 22,
+      "max": 25,
+      "reason": "Strong airport, rail and highway connectivity."
+    },
+    "navigation_score": {
+      "value": 13,
+      "max": 25,
+      "reason": "Environmental sensitivity, water quality concerns and operational limitations reduce navigation suitability."
+    },
+    "demand_score": {
+      "value": 16,
+      "max": 20,
+      "reason": "Strong industrial economy and freight demand."
+    },
+    "final_score": 72,
+    "calculation": "21 + 22 + 13 + 16 = 72"
+  },
+  {
+    "location": "Kolkata",
+    "infrastructure_score": {
+      "value": 29,
+      "max": 30,
+      "reason": "GR Jetty infrastructure, port ecosystem and MMLP Dankuni provide exceptional readiness."
+    },
+    "connectivity_score": {
+      "value": 25,
+      "max": 25,
+      "reason": "Major airport, rail network, highways and port connectivity."
+    },
+    "navigation_score": {
+      "value": 22,
+      "max": 25,
+      "reason": "Strong navigation conditions supported by river-port integration."
+    },
+    "demand_score": {
+      "value": 19,
+      "max": 20,
+      "reason": "Largest economic base, trade activity and population in the study area."
+    },
+    "final_score": 95,
+    "calculation": "29 + 25 + 22 + 19 = 95"
+  }
+]

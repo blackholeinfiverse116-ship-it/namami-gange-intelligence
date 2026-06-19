@@ -1,0 +1,207 @@
+[
+  {
+    "location": "Varanasi",
+    "datasets_used": [
+      {
+        "dataset": "urban_centers_ganga_basin",
+        "record_id": "UC007",
+        "record_name": "Varanasi",
+        "contribution": "Population, airport connectivity, railway connectivity and economic importance",
+        "contribution_area": "Demand and Connectivity"
+      },
+      {
+        "dataset": "iwai_terminals_nw1",
+        "record_id": "T001",
+        "record_name": "Multimodal Terminal Varanasi (Ramnagar)",
+        "contribution": "Operational inland waterway infrastructure",
+        "contribution_area": "Infrastructure Readiness"
+      },
+      {
+        "dataset": "logistics_parks_ganga_belt",
+        "record_id": "LP001",
+        "record_name": "MMLP Varanasi (Proposed - EDFC Node)",
+        "contribution": "Logistics and multimodal freight capability",
+        "contribution_area": "Logistics Opportunity"
+      },
+      {
+        "dataset": "cpcb_water_quality_ganga",
+        "record_id": "WQ009",
+        "record_name": "Varanasi (Rajghat)",
+        "contribution": "Water quality assessment",
+        "contribution_area": "Environmental Assessment"
+      },
+      {
+        "dataset": "cwc_river_stations_ganga",
+        "record_id": "RS010",
+        "record_name": "Varanasi (Rajghat Bridge)",
+        "contribution": "Navigability depth, flow stability and river conditions",
+        "contribution_area": "Navigation Assessment"
+      }
+    ],
+    "lineage_summary": "Score derived from strong infrastructure availability, multimodal logistics presence, favorable navigation conditions and high tourism demand."
+  },
+  {
+    "location": "Patna",
+    "datasets_used": [
+      {
+        "dataset": "urban_centers_ganga_basin",
+        "record_id": "UC010",
+        "record_name": "Patna",
+        "contribution": "Population, airport, rail and economic significance",
+        "contribution_area": "Demand and Connectivity"
+      },
+      {
+        "dataset": "iwai_terminals_nw1",
+        "record_id": "T020",
+        "record_name": "Fixed Terminal Gaighat Patna",
+        "contribution": "Operational inland waterway terminal",
+        "contribution_area": "Infrastructure Readiness"
+      },
+      {
+        "dataset": "logistics_parks_ganga_belt",
+        "record_id": "LP004",
+        "record_name": "MMLP Patna (Proposed)",
+        "contribution": "Future logistics expansion capability",
+        "contribution_area": "Logistics Opportunity"
+      },
+      {
+        "dataset": "logistics_parks_ganga_belt",
+        "record_id": "LP011",
+        "record_name": "ICD Patna (Fatuha)",
+        "contribution": "Existing inland freight connectivity",
+        "contribution_area": "Cargo Operations"
+      },
+      {
+        "dataset": "cpcb_water_quality_ganga",
+        "record_id": "WQ013",
+        "record_name": "Patna (Gandhi Ghat)",
+        "contribution": "Environmental assessment",
+        "contribution_area": "Water Quality"
+      },
+      {
+        "dataset": "cwc_river_stations_ganga",
+        "record_id": "RS013",
+        "record_name": "Patna (Gandhi Ghat)",
+        "contribution": "River flow and navigation assessment",
+        "contribution_area": "Navigation Assessment"
+      }
+    ],
+    "lineage_summary": "Score derived from operational terminal infrastructure, logistics connectivity, strong urban demand and favorable river conditions."
+  },
+  {
+    "location": "Prayagraj",
+    "datasets_used": [
+      {
+        "dataset": "urban_centers_ganga_basin",
+        "record_id": "UC006",
+        "record_name": "Prayagraj (Allahabad)",
+        "contribution": "Population and connectivity indicators",
+        "contribution_area": "Demand and Connectivity"
+      },
+      {
+        "dataset": "iwai_terminals_nw1",
+        "record_id": "T005",
+        "record_name": "Floating Terminal Prayagraj (Allahabad)",
+        "contribution": "Passenger and waterway infrastructure",
+        "contribution_area": "Infrastructure Readiness"
+      },
+      {
+        "dataset": "logistics_parks_ganga_belt",
+        "record_id": "LP002",
+        "record_name": "MMLP Prayagraj (Proposed)",
+        "contribution": "Logistics growth potential",
+        "contribution_area": "Logistics Opportunity"
+      },
+      {
+        "dataset": "cpcb_water_quality_ganga",
+        "record_id": "WQ007",
+        "record_name": "Allahabad/Prayagraj (Sangam)",
+        "contribution": "Water quality and environmental assessment",
+        "contribution_area": "Environmental Assessment"
+      },
+      {
+        "dataset": "cwc_river_stations_ganga",
+        "record_id": "RS008",
+        "record_name": "Prayagraj/Allahabad (Yamuna+Ganga)",
+        "contribution": "Flood risk and navigability conditions",
+        "contribution_area": "Navigation Assessment"
+      }
+    ],
+    "lineage_summary": "Score driven by tourism demand and connectivity, moderated by flood risk and navigation variability."
+  },
+  {
+    "location": "Kanpur",
+    "datasets_used": [
+      {
+        "dataset": "urban_centers_ganga_basin",
+        "record_id": "UC004",
+        "record_name": "Kanpur",
+        "contribution": "Industrial economy, population and connectivity",
+        "contribution_area": "Demand and Connectivity"
+      },
+      {
+        "dataset": "logistics_parks_ganga_belt",
+        "record_id": "LP003",
+        "record_name": "MMLP Kanpur (Proposed - EDFC)",
+        "contribution": "Industrial logistics potential",
+        "contribution_area": "Logistics Opportunity"
+      },
+      {
+        "dataset": "logistics_parks_ganga_belt",
+        "record_id": "LP010",
+        "record_name": "ICD Kanpur (Panki)",
+        "contribution": "Freight handling capability",
+        "contribution_area": "Cargo Operations"
+      },
+      {
+        "dataset": "cpcb_water_quality_ganga",
+        "record_id": "WQ006",
+        "record_name": "Kanpur Downstream (Jajmau)",
+        "contribution": "Water quality assessment",
+        "contribution_area": "Environmental Assessment"
+      },
+      {
+        "dataset": "cwc_river_stations_ganga",
+        "record_id": "RS007",
+        "record_name": "Kanpur (Sharda Sahayak)",
+        "contribution": "River conditions and navigation assessment",
+        "contribution_area": "Navigation Assessment"
+      }
+    ],
+    "lineage_summary": "Score supported by industrial demand and freight infrastructure but reduced by environmental and water quality concerns."
+  },
+  {
+    "location": "Kolkata",
+    "datasets_used": [
+      {
+        "dataset": "urban_centers_ganga_basin",
+        "record_id": "UC017",
+        "record_name": "Kolkata",
+        "contribution": "Largest urban and economic center in the study area",
+        "contribution_area": "Demand and Connectivity"
+      },
+      {
+        "dataset": "iwai_terminals_nw1",
+        "record_id": "T019",
+        "record_name": "Fixed Terminal GR Jetty-2 Kolkata",
+        "contribution": "Operational waterway infrastructure",
+        "contribution_area": "Infrastructure Readiness"
+      },
+      {
+        "dataset": "logistics_parks_ganga_belt",
+        "record_id": "LP005",
+        "record_name": "MMLP Kolkata (Dankuni)",
+        "contribution": "Port-linked logistics ecosystem",
+        "contribution_area": "Logistics Opportunity"
+      },
+      {
+        "dataset": "cwc_river_stations_ganga",
+        "record_id": "RS022",
+        "record_name": "Kolkata (Eden Gardens)",
+        "contribution": "River navigation and operational assessment",
+        "contribution_area": "Navigation Assessment"
+      }
+    ],
+    "lineage_summary": "Score derived from port-linked infrastructure, extensive logistics capabilities, multimodal connectivity and strong economic activity."
+  }
+]
