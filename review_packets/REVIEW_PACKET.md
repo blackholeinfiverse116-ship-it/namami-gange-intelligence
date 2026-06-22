@@ -505,3 +505,277 @@ Users can inspect:
 * What constraints exist
 
 without requiring manual interpretation from the project team.
+
+# 17. Marine Intelligence Expansion
+
+## Objective
+
+The intelligence layer has been expanded from location suitability assessment to operational decision support.
+
+The system now answers:
+
+* What does the data mean?
+* What risks exist?
+* What opportunities exist?
+* What should the operator do?
+* Why should the operator do it?
+* How confident is the recommendation?
+
+---
+
+# 18. Marine Intelligence Taxonomy
+
+The platform now supports the following intelligence domains:
+
+* Waterway Intelligence
+* Vessel Intelligence
+* Cargo Intelligence
+* Infrastructure Intelligence
+* Terminal Intelligence
+* Seaplane Intelligence
+* Environmental Intelligence
+* Risk Intelligence
+* Logistics Intelligence
+
+Reference File:
+
+MARINE_INTELLIGENCE_TAXONOMY.md
+
+---
+
+# 19. Operational Recommendation Engine
+
+The platform now generates operational recommendations rather than only scores.
+
+Examples:
+
+Water Level Decreasing
+→ Reduce Vessel Draft
+
+Terminal Congestion Rising
+→ Reroute Cargo
+
+Flood Risk Increasing
+→ Suspend Operations
+
+Navigation Restriction Detected
+→ Alternate Route Recommendation
+
+Reference File:
+
+OPERATIONAL_RECOMMENDATION_ENGINE.md
+
+---
+
+# 20. Marine Confidence Framework
+
+Confidence is generated using:
+
+* Dataset Quality
+* Dataset Freshness
+* Dataset Coverage
+* Source Reliability
+* Contradiction Analysis
+
+Confidence Levels:
+
+High Confidence:
+0.90 – 1.00
+
+Medium Confidence:
+0.75 – 0.89
+
+Low Confidence:
+0.50 – 0.74
+
+Very Low Confidence:
+Below 0.50
+
+Reference File:
+
+MARINE_CONFIDENCE_MODEL.md
+
+---
+
+# 21. Marine Risk Intelligence
+
+The platform now generates structured operational risks.
+
+Supported Risk Types:
+
+* Flood Risk
+* Navigation Risk
+* Cargo Risk
+* Environmental Risk
+* Infrastructure Risk
+* Weather Risk
+* Operational Risk
+
+Reference File:
+
+MARINE_RISK_INTELLIGENCE_MODEL.md
+
+---
+
+# 22. Seaplane Intelligence
+
+Seaplane suitability assessment includes:
+
+* Water Surface Suitability
+* Approach Constraints
+* Infrastructure Availability
+* Passenger Access
+* Environmental Restrictions
+* Seasonal Risk
+
+Outputs:
+
+* Suitable
+* Moderately Suitable
+* Unsuitable
+
+Reference File:
+
+SEAPLANE_INTELLIGENCE_MODEL.md
+
+---
+
+# 23. Cargo Corridor Intelligence
+
+Cargo intelligence evaluates:
+
+* Cargo Origins
+* Cargo Destinations
+* Cargo Corridors
+* Hub-Spoke Models
+* Terminal Capacity
+* Capacity Constraints
+
+Reference File:
+
+CARGO_CORRIDOR_INTELLIGENCE.md
+
+---
+
+# 24. SVACS Validation Framework
+
+All recommendations are validated using:
+
+* Source Dataset
+* Supporting Evidence
+* Contradictions
+* Confidence
+* Validation Status
+
+Reference File:
+
+SVACS_MARINE_VALIDATION_FRAMEWORK.md
+
+---
+
+# 25. NICAI Marine Decision Layer
+
+Decision Flow:
+
+Datasets
+→ Signals
+→ Risks
+→ Opportunities
+→ Constraints
+→ Recommendations
+→ Confidence
+→ Operator Actions
+
+Reference File:
+
+NICAI_MARINE_DECISION_LAYER.md
+
+---
+
+# 26. Marine Operations QA Pack
+
+Prepared for operational review and Commodore demonstrations.
+
+Supports questions such as:
+
+* Why this route?
+* Why this terminal?
+* Why this recommendation?
+* Why this confidence score?
+* What datasets support this?
+* What alternatives were considered?
+* What happens if the data is incorrect?
+
+Reference File:
+
+MARINE_OPERATIONS_QA_PACK.md
+
+---
+
+# 27. Future Operational Vision
+
+The intelligence layer is designed to support future integration with:
+
+* Marine MasterDB
+* RIS Systems
+* SVACS Validation
+* Runtime Telemetry
+* Replay Systems
+* Operations Command Center
+
+The architecture supports future transition from static intelligence to real-time operational intelligence.
+
+---
+
+# 28. Updated Deliverables
+
+### Intelligence Layer Deliverables
+
+* DATASET_INVENTORY.md
+* LOCATION_INTELLIGENCE.json
+* LOCATION_EXPLANATIONS.md
+* OPPORTUNITY_INTELLIGENCE.json
+* CONSTRAINT_INTELLIGENCE.json
+* DEMO_INTELLIGENCE_PAYLOAD.json
+
+### Explainability Deliverables
+
+* DATASET_LINEAGE.json
+* SCORE_EXPLANATION.json
+* CONFIDENCE_EXPLANATION.json
+* DATASET_SUMMARY_PAYLOAD.json
+* COMMODORE_QA.md
+* DEMO_BRIEF.md
+
+### Marine Operations Deliverables
+
+* MARINE_INTELLIGENCE_TAXONOMY.md
+* OPERATIONAL_RECOMMENDATION_ENGINE.md
+* MARINE_CONFIDENCE_MODEL.md
+* MARINE_RISK_INTELLIGENCE_MODEL.md
+* SEAPLANE_INTELLIGENCE_MODEL.md
+* CARGO_CORRIDOR_INTELLIGENCE.md
+* SVACS_MARINE_VALIDATION_FRAMEWORK.md
+* NICAI_MARINE_DECISION_LAYER.md
+* MARINE_OPERATIONS_QA_PACK.md
+
+---
+
+# 29. Final Readiness Status
+
+Status:
+
+READY
+
+The platform now provides:
+
+Dataset Evidence
+→ Intelligence Assessment
+→ Risks
+→ Opportunities
+→ Recommendations
+→ Confidence
+→ Operator Actions
+
+The system supports explainable, traceable and auditable operational intelligence suitable for future inland waterway decision-support systems.
+
