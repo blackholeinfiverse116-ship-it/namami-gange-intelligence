@@ -7,7 +7,7 @@ The Operational Recommendation Engine converts raw datasets, intelligence signal
 The objective is not only to identify what is happening, but also to explain:
 
 * What should be done?
-* Why should it be done?
+* Why should it be done? 
 * What evidence supports the recommendation?
 * How confident is the recommendation?
 
