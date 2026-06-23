@@ -1,6 +1,6 @@
 # OPERATIONAL RECOMMENDATION ENGINE
 
-## Purpose
+## Purpose 
 
 The Operational Recommendation Engine converts raw datasets, intelligence signals, risks and opportunities into actionable recommendations for operators.
 
