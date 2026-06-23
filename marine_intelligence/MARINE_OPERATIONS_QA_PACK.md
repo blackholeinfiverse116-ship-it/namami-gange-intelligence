@@ -13,7 +13,7 @@ The objective is to explain how the Marine Intelligence Layer reaches decisions 
 The system selected this route because it offers the best overall operational conditions based on the available data.
 
 The recommendation considers:
-
+ 
 * Navigation conditions
 * River depth
 * Infrastructure availability
