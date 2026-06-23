@@ -6,7 +6,7 @@ The NICAI Marine Decision Layer is the intelligence engine that sits between raw
 
 Its purpose is to answer:
 
-* What is happening?
+* What is happening? 
 * Why is it happening?
 * What risks exist?
 * What opportunities exist?
