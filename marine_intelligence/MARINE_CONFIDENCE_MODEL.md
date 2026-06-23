@@ -5,7 +5,7 @@
 The Marine Confidence Model provides a transparent and explainable way to measure how much trust can be placed in an intelligence output, risk assessment, opportunity assessment or operational recommendation.
 
 The objective is not to claim certainty.
-
+ 
 The objective is to clearly communicate:
 
 * How strong the available evidence is
