@@ -6,7 +6,7 @@ The Seaplane Intelligence Model helps assess whether a river, lake, reservoir or
 
 The goal is to convert environmental, infrastructure and operational data into clear and explainable seaplane suitability assessments.
 
-The model should answer:
+The model should answer: 
 
 * Can a seaplane safely operate here?
 * What factors support operations?
