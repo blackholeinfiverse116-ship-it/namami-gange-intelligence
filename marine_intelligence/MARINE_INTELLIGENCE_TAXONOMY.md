@@ -4,7 +4,7 @@
 
 The Marine Intelligence Taxonomy provides a structured framework for organizing, classifying and interpreting marine operational intelligence.
 
-It acts as the common intelligence layer between:
+It acts as the common intelligence layer between: 
 
 * Marine MasterDB
 * NICAI
