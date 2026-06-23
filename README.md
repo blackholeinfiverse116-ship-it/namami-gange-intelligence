@@ -4,7 +4,7 @@
 
 This repository contains the complete Marine Intelligence Layer developed for the Namami Gange program.
 
-The project transforms raw geospatial, environmental, infrastructure and logistics datasets into explainable operational intelligence.
+The project transforms raw geospatial, environmental, infrastructure and logistics datasets into explainable operational intelligence. 
 
 The objective is to help operators, planners and decision-makers understand:
 
