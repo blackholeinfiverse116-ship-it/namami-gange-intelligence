@@ -9,7 +9,7 @@ The objective is to transform raw infrastructure, terminal, logistics and demand
 The model should answer:
 
 * Where is cargo coming from?
-* Where is cargo going?
+* Where is cargo going? 
 * Which corridor should be used?
 * What bottlenecks exist?
 * Which terminals should be used?
