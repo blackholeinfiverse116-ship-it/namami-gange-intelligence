@@ -7,7 +7,7 @@ SVACS (System Validation and Assurance Control System) is responsible for valida
 The objective is to ensure that every recommendation, risk assessment, opportunity, constraint and operational decision can be verified, explained and trusted.
 
 The framework should answer:
-
+ 
 * Is this intelligence supported by data?
 * Which datasets were used?
 * Is the evidence sufficient?
