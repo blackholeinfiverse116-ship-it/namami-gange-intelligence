@@ -4,7 +4,7 @@
 
 The Marine Risk Intelligence Model helps identify, assess and explain risks that may impact inland waterway and marine operations.
 
-The goal is not just to detect risks, but to help operators understand:
+The goal is not just to detect risks, but to help operators understand: 
 
 * What risk exists?
 * Why does the risk exist?
