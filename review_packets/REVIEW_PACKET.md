@@ -779,3 +779,413 @@ Dataset Evidence
 
 The system supports explainable, traceable and auditable operational intelligence suitable for future inland waterway decision-support systems.
 
+---
+
+# 30. Marine Knowledge Graph
+
+## Purpose
+
+The Marine Intelligence System is no longer designed around isolated datasets. Instead, it is built on a connected knowledge graph where every entity and every decision is linked through meaningful relationships.
+
+Rather than reading a single dataset and generating a recommendation, the system combines information from multiple sources to understand the complete operational context.
+
+## Key Entities
+
+The knowledge graph includes:
+
+- Rivers
+- River Reaches
+- Channels
+- Stations
+- Gauges
+- Water Bodies
+- Ports
+- Jetties
+- Terminals
+- Logistics Parks
+- Bridges
+- Cargo
+- Commodities
+- Vessels
+- Crews
+- Missions
+- Weather Cells
+- Flood Events
+- Risks
+- Constraints
+- Opportunities
+- Recommendations
+- Decisions
+- Evidence
+- Sensors
+- Telemetry Events
+- Administrative Regions
+- Environmental Zones
+
+Each entity contains:
+
+- Unique Identity
+- Attributes
+- Current State
+- Lifecycle
+- Relationships
+- Authority Owner
+- Version Information
+- Traceability
+
+Instead of isolated records, every object becomes part of a larger operational ecosystem.
+
+Reference Files:
+
+- MARINE_KNOWLEDGE_GRAPH_SPECIFICATION.md
+- ENTITY_REGISTRY.md
+- GRAPH_SCHEMA.md
+
+---
+
+# 31. Marine Ontology
+
+## Purpose
+
+Different teams often use the same words with different meanings. This creates ambiguity and inconsistent decision-making.
+
+The Marine Ontology solves this problem by defining a common language for the entire platform.
+
+Every entity, relationship and operational concept has one standard definition.
+
+This ensures that Marine MasterDB, NICAI, Runtime Telemetry, SVACS and the Operations Command Center all interpret operational information in exactly the same way.
+
+Benefits include:
+
+- Consistent terminology
+- Better interoperability
+- Reduced semantic conflicts
+- Easier future expansion
+- Explainable reasoning
+
+Reference File:
+
+- MARINE_ONTOLOGY_SPECIFICATION.md
+
+---
+
+# 32. Marine Semantic Registry
+
+## Purpose
+
+Operational intelligence depends on precise language.
+
+Words such as "Navigable", "Restricted", "Critical" or "Operational" should always have the same meaning regardless of who is using the platform.
+
+The Semantic Registry acts as the official dictionary for the Marine Intelligence System.
+
+Each term includes:
+
+- Definition
+- Scope
+- Owner
+- Allowed Meaning
+- Prohibited Meaning
+- Version
+- Practical Examples
+
+This prevents semantic drift as the platform evolves.
+
+Reference File:
+
+- MARINE_SEMANTIC_REGISTRY.md
+
+---
+
+# 33. Marine Memory Architecture
+
+## Purpose
+
+Operational decisions should not depend only on the current situation.
+
+The system remembers previous observations, incidents, seasonal behaviour and past decisions to provide better recommendations.
+
+Memory Types:
+
+- Operational Memory
+- Historical Memory
+- Seasonal Memory
+- Infrastructure Memory
+- Decision Memory
+- Incident Memory
+- Replay Memory
+- Evidence Memory
+- Validation Memory
+
+Each memory defines:
+
+- Retention Period
+- Authority
+- Ownership
+- Retrieval Strategy
+- Lineage
+- Expiry Rules
+
+By using memory, the system can compare present conditions with historical behaviour before generating recommendations.
+
+Reference File:
+
+- MARINE_MEMORY_ARCHITECTURE.md
+
+---
+
+# 34. Marine Reasoning Engine
+
+## Purpose
+
+The reasoning engine transforms raw observations into explainable operational guidance.
+
+Instead of applying a single rule, the engine processes information through multiple reasoning layers.
+
+Reasoning Flow:
+
+Observation
+→ Signal Detection
+→ Pattern Recognition
+→ Context Analysis
+→ Historical Comparison
+→ Predictive Assessment
+→ Constraint Identification
+→ Opportunity Detection
+→ Risk Evaluation
+→ Decision Generation
+→ Validation
+→ Governance
+
+Each layer contributes additional understanding before a recommendation is produced.
+
+This layered reasoning approach makes every decision transparent and traceable.
+
+Reference File:
+
+- MARINE_REASONING_ENGINE_SPECIFICATION.md
+
+---
+
+# 35. State Machine Architecture
+
+## Purpose
+
+Marine operations are dynamic.
+
+Every important operational object changes state over time.
+
+The platform models these changes using deterministic state machines.
+
+Examples include:
+
+River
+
+Normal
+→ Watch
+→ Alert
+→ Restricted
+→ Emergency
+→ Recovery
+→ Normal
+
+Similar state machines are defined for:
+
+- Terminal
+- Vessel
+- Cargo
+- Corridor
+- Recommendation
+- Decision
+- Incident
+- Mission
+
+Each transition specifies:
+
+- Trigger
+- Conditions
+- Responsible Authority
+- Recovery Path
+
+This guarantees predictable operational behaviour.
+
+Reference File:
+
+- MARINE_STATE_MACHINE_CATALOGUE.md
+
+---
+
+# 36. NICAI Cognitive Decision Engine
+
+## Purpose
+
+NICAI has evolved from a recommendation generator into a cognitive decision-support engine.
+
+Rather than producing recommendations immediately after reading datasets, NICAI evaluates evidence, context, historical memory and competing operational choices.
+
+Decision Flow:
+
+Observation
+→ Evidence Collection
+→ Context Analysis
+→ Memory Lookup
+→ Competing Decisions
+→ Conflict Resolution
+→ Objective Optimisation
+→ Decision Contract
+→ Validation
+→ Operator Guidance
+
+This enables operators to understand not only what should be done, but also why that action is recommended.
+
+Reference Files:
+
+- NICAI_COGNITIVE_ENGINE_ARCHITECTURE.md
+- DECISION_NEGOTIATION_FRAMEWORK.md
+
+---
+
+# 37. Truth and Evidence Fabric
+
+## Purpose
+
+Every recommendation must be supported by verifiable evidence.
+
+The Truth and Evidence Fabric records the complete reasoning chain behind every decision.
+
+Each recommendation includes:
+
+- Evidence Tree
+- Evidence Graph
+- Reasoning Graph
+- Dependency Tree
+- Confidence Chain
+- Validation Trail
+- Replay Trail
+
+This ensures that every operational recommendation is explainable, auditable and reproducible.
+
+Reference Files:
+
+- TRUTH_AND_EVIDENCE_FABRIC.md
+- REPLAY_AND_PROVENANCE_SPECIFICATION.md
+
+---
+
+# 38. Event and Temporal Intelligence
+
+## Purpose
+
+Marine environments change continuously.
+
+The intelligence system monitors operational events and analyses how conditions evolve over time.
+
+Example Events:
+
+- River Level Changed
+- Flood Warning Received
+- Weather Alert Issued
+- Terminal Capacity Exceeded
+- Navigation Restriction Detected
+- AIS Signal Lost
+
+The Temporal Intelligence Layer compares:
+
+- Current State
+- Previous State
+- Seasonal Trends
+- Historical Behaviour
+- Predicted Future State
+
+This allows the system to react to changes rather than relying only on static information.
+
+Reference Files:
+
+- EVENT_INTELLIGENCE_ARCHITECTURE.md
+- TEMPORAL_INTELLIGENCE_MODEL.md
+
+---
+
+# 39. Learning and Feedback Engine
+
+## Purpose
+
+Operational knowledge improves through experience.
+
+The platform records the outcome of every important recommendation.
+
+Learning Flow:
+
+Decision
+→ Execution
+→ Outcome
+→ Operator Feedback
+→ Validation
+→ Knowledge Update
+
+This feedback helps refine operational rules while keeping the system deterministic and fully explainable.
+
+Reference File:
+
+- LEARNING_AND_FEEDBACK_ENGINE.md
+
+---
+
+# 40. System Integration
+
+The Marine Intelligence Architecture integrates seamlessly with all major platform components.
+
+| Component | Responsibility |
+|-----------|----------------|
+| Marine MasterDB | Canonical operational knowledge |
+| Runtime Telemetry | Real-time observations |
+| SVACS | Validation and verification |
+| Operations Command Center | Operational decision support |
+| MDU | Semantic governance |
+| GC | Authority management |
+| TMS | Strategic convergence |
+
+Each component has clearly defined responsibilities to maintain governance and interoperability.
+
+Reference File:
+
+- INTEGRATION_DOCUMENTATION.md
+
+---
+
+# 41. Technical Deliverables
+
+The architecture includes the following technical specifications:
+
+- Graph Schema
+- Entity Registry
+- Relationship Registry
+- Authority Registry
+- JSON Contracts
+- API Specifications
+
+These artifacts provide stable interfaces for future software development and integration.
+
+---
+
+# 42. Architecture Readiness
+
+## Current Status
+
+**ARCHITECTURE READY**
+
+The Marine Intelligence Platform now supports:
+
+- Knowledge Graph Based Reasoning
+- Semantic Intelligence
+- Context-Aware Decision Making
+- Evidence-Based Recommendations
+- Event-Driven Intelligence
+- Temporal Intelligence
+- Memory-Based Reasoning
+- Deterministic State Management
+- Validation and Replay
+- Governance and Traceability
+
+The architecture has been designed to remain deterministic, explainable, replayable and scalable, providing a strong foundation for future implementation across NICAI, Marine MasterDB, SVACS, Runtime Telemetry and the Operations Command Center.
+
