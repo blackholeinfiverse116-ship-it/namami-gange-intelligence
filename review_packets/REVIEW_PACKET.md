@@ -69,7 +69,6 @@ The following files power the demonstration.
 | COMMODORE_QA.md                | Demo question responses       |
 | DEMO_BRIEF.md                  | Operator cheat sheet          |
 | REVIEW_PACKET.md               | Complete review documentation |
-|------|---------|
 | MARINE_KNOWLEDGE_GRAPH_SPECIFICATION.md | Defines the complete Marine Knowledge Graph, entities and relationships. |
 | MARINE_ONTOLOGY_SPECIFICATION.md | Defines the common ontology and standard meaning of all marine entities and concepts. |
 | MARINE_SEMANTIC_REGISTRY.md | Provides the official definitions of operational terms used across the platform. |
@@ -98,44 +97,8 @@ The following files power the demonstration.
 | CROSS_REFERENCE_MATRIX.md | Maps relationships between architecture documents and system components. |
 | FUTURE_EXTENSION_STRATEGY.md | Describes planned future enhancements and expansion strategy. |
 | REVIEW_PACKET.md | Complete architecture review, implementation summary and submission document. |
-
 
 ---
-
-# 2. Critical Files
-
-The following files form the core of the Marine Intelligence Cognitive Architecture. Together, they define how the system stores knowledge, reasons about operational situations, generates explainable decisions, validates recommendations, and supports future integration.
-
-| File | Purpose |
-|------|---------|
-| MARINE_KNOWLEDGE_GRAPH_SPECIFICATION.md | Defines the complete Marine Knowledge Graph, entities and relationships. |
-| MARINE_ONTOLOGY_SPECIFICATION.md | Defines the common ontology and standard meaning of all marine entities and concepts. |
-| MARINE_SEMANTIC_REGISTRY.md | Provides the official definitions of operational terms used across the platform. |
-| MARINE_MEMORY_ARCHITECTURE.md | Describes how operational, historical, seasonal and decision memory are managed. |
-| MARINE_REASONING_ENGINE_SPECIFICATION.md | Explains the multi-layer reasoning process from observation to decision. |
-| MARINE_STATE_MACHINE_CATALOGUE.md | Defines lifecycle states and transitions for major operational entities. |
-| NICAI_COGNITIVE_ENGINE_ARCHITECTURE.md | Describes the cognitive decision-making workflow used by NICAI. |
-| TRUTH_AND_EVIDENCE_FABRIC.md | Explains evidence collection, reasoning chains, validation and traceability. |
-| DECISION_NEGOTIATION_FRAMEWORK.md | Describes how multiple recommendations are evaluated and conflicts are resolved. |
-| REPLAY_AND_PROVENANCE_SPECIFICATION.md | Defines replay capability and complete decision provenance. |
-| MARINE_INTELLIGENCE_DOCTRINE.md | Establishes the guiding principles and constitutional doctrine of Marine Intelligence. |
-| EVENT_INTELLIGENCE_ARCHITECTURE.md | Defines how operational events are detected and processed. |
-| TEMPORAL_INTELLIGENCE_MODEL.md | Describes how the system reasons over time using historical and current observations. |
-| LEARNING_AND_FEEDBACK_ENGINE.md | Explains how operational outcomes and feedback improve future decisions. |
-| ENTITY_REGISTRY.md | Lists all entities used within the Marine Knowledge Graph. |
-| RELATIONSHIP_REGISTRY.md | Defines semantic relationships between entities. |
-| AUTHORITY_REGISTRY.md | Specifies ownership and authority for every entity and decision. |
-| GRAPH_SCHEMA.md | Provides the logical schema of the Marine Knowledge Graph. |
-| JSON_CONTRACTS.md | Defines the standard JSON structures exchanged between system components. |
-| API_SPECIFICATIONS.md | Documents the APIs for integration with external systems. |
-| KNOWLEDGE_GRAPH_DIAGRAM.md | Visual representation of the Marine Knowledge Graph. |
-| REASONING_FLOW_DIAGRAM.md | Visual representation of the reasoning workflow. |
-| DECISION_COGNITION_DIAGRAM.md | Visual representation of the decision cognition process. |
-| EVIDENCE_FABRIC_DIAGRAM.md | Visual representation of evidence generation and validation. |
-| INTEGRATION_DOCUMENTATION.md | Describes integration with Marine MasterDB, SVACS, Runtime Telemetry and Operations Command Center. |
-| CROSS_REFERENCE_MATRIX.md | Maps relationships between architecture documents and system components. |
-| FUTURE_EXTENSION_STRATEGY.md | Describes planned future enhancements and expansion strategy. |
-| REVIEW_PACKET.md | Complete architecture review, implementation summary and submission document. |
 
 # 3. Dataset Sources
 
